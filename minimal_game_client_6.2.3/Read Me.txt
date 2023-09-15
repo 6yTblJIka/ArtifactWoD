@@ -1,0 +1,4 @@
+if need change reamlist just edit WTF/config.wtf   
+lane '   SET portal "localhost"  '
+
+

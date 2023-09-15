@@ -1,0 +1,80 @@
+#ifndef TIMELESS_ISLE_H
+#define TIMELESS_ISLE_H
+
+enum eQuests
+{
+	// Quests
+    QUEST_TIME_KEEPER_KAIROZ_H       = 33156,
+    QUEST_TIME_KEEPER_KAIROZ_A       = 33160
+};
+
+enum eCreatures
+{
+	// Npcs
+    NPC_PRINCE_ANDUIN       = 73061,
+    NPC_KAIROZ              = 72870,
+
+	// Celestials
+	NPC_SHAO_HAO = 73303,
+	NPC_YULON = 71955,
+	NPC_XUEN = 71953,
+	NPC_CHI_JI = 71952,
+	NPC_NIUZAO = 71954,
+};
+
+enum eGameObjects
+{
+	GAMEOBJECT_HEATED_DOOR = 221032,
+};
+
+
+enum eActions
+{
+    ACTION_PRINCE_TALK_1      = 1,
+    ACTION_PRINCE_TALK_2      = 2,
+    ACTION_PRINCE_TALK_3      = 3,
+    ACTION_PRINCE_TALK_4      = 4,
+    ACTION_PRINCE_TALK_5      = 5,
+    ACTION_KAIROZ_TALK_1      = 6,
+    ACTION_KAIROZ_TALK_2      = 7,
+    ACTION_KAIROZ_TALK_3      = 8,
+    ACTION_KAIROZ_TALK_4      = 9,
+    ACTION_KAIROZ_TALK_5      = 10,
+    ACTION_CONVERSATION       = 11,
+
+	// Celestials
+	ACTION_CELESTIAL_CHALLENGE_INTRO,
+	ACTION_CELESTIAL_CHALLENGE_PREPARE,
+	ACTION_CELESTIAL_CHALLENGE_BATTLE_END,
+	ACTION_CELESTIAL_CHALLENGE_OUTRO,
+};
+
+enum eEvents
+{
+    EVENT_PRINCE_TALK_1    = 1,
+    EVENT_PRINCE_TALK_2    = 2,
+    EVENT_PRINCE_TALK_3    = 3,
+    EVENT_PRINCE_TALK_4    = 4,
+    EVENT_PRINCE_TALK_5    = 5,
+    EVENT_KAIROZ_TALK_1    = 6,
+    EVENT_KAIROZ_TALK_2    = 7,
+    EVENT_KAIROZ_TALK_3    = 8,
+    EVENT_KAIROZ_TALK_4    = 9,
+    EVENT_KAIROZ_TALK_5    = 10
+};
+
+enum Data64
+{
+	DATA_EMPERROR_SHAOHAO = 1,
+	DATA_JADE_SERPENT,
+	DATA_WHITE_TIGER,
+	DATA_RED_CRANE,
+	DATA_BLACK_OX,
+	DATA_HEATED_DOOR,
+};
+
+const Position celestialChallengeCenterPos = { -647.99f, -5012.64f, -6.26f, 1.58f };
+
+
+
+#endif
