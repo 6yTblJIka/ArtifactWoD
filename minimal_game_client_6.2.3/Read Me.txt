@@ -1,4 +1,5 @@
 if need change reamlist just edit WTF/config.wtf   
-lane '   SET portal "localhost"  '
+lane ( SET portal "localhost" ) 
 
 
+if have some problems with connect you need  unrar  " Blizzard Entertainment.rar " to C:\ProgramData
